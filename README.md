@@ -5,10 +5,10 @@ The program is designed for excel files union by built in template. Originally i
 The template is a built in code python dictionary, looks like this:
 ```json
 {
-	/'Main_column/': [/'probable_value_1/', /'probable_value_2/', ... , /'probable_value_n/'],
-	/'Other_column_1/': [/'probable_value_1_1/', /'probable_value_1_2/', ... , /'probable_value_1_n/'],
+	'Main_column': ['probable_value_1', 'probable_value_2', ... , 'probable_value_n'],
+	'Other_column_1': ['probable_value_1_1', 'probable_value_1_2', ... , 'probable_value_1_n'],
 	...
-	/'Other_column_m/': [/'probable_value_m_1/', /'probable_value_m_2/', ... , /'probable_value_m_n/'],
+	'Other_column_m': ['probable_value_m_1', 'probable_value_m_2', ... , 'probable_value_m_n'],
 }
 ```
 
